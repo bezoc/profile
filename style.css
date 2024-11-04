@@ -1,0 +1,87 @@
+h1 {
+  font-family: "Nabla", system-ui;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  text-align: center;
+}
+
+h2 {
+  font-family: "Electrolize", sans-serif;
+  font-weight: 400;
+  text-align: center;
+}
+
+body {
+  font-family: "Electrolize", sans-serif;
+  background-color: rgb(255, 255, 255);
+}
+
+i {
+  padding: 20px;
+  font-size: 40px;
+  color: rgb(180, 230, 123);
+}
+
+i:hover {
+  color: rgb(93, 172, 4);
+}
+
+#beatriz {
+  border-radius: 30%;
+  width: 200px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  box-shadow: 0 10px 30px rgb(231, 228, 47);
+}
+
+.inline-list {
+  text-align: center;
+}
+
+.inline-list li {
+  list-style: none;
+  display: inline;
+}
+
+a {
+  text-decoration: none;
+}
+
+.btn {
+  background-color: rgb(180, 230, 123);
+  border-radius: 6px;
+  padding: 0 2px;
+}
+
+.btn:hover {
+  background-color: rgb(93, 172, 4);
+}
+
+.card {
+  box-shadow: 0 10px 30px rgba(98, 207, 47, 0.411);
+  background-color: rgb(255, 255, 255);
+  margin: 50px 0 20px;
+  padding: 40px;
+}
+
+.container {
+  width: 700px;
+  margin: 0 auto;
+}
+
+.fav-things-list {
+  text-align: center;
+  list-style-position: inside;
+}
+
+#socials-list {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+p {
+  text-align: center;
+}
